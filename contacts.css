@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{   }
+
+.wrapper{
+    height: 100vh;
+}
+
+.container{
+    max-width: 750px;
+    margin: 0 auto; 
+    height: inherit;
+
+}
+
+.header {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(240, 240, 240);
+}
+
+.menu__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    
+}
+
+.menu__link{
+    text-decoration: none;
+}
+
+.menu__list-item{
+    margin: 0px 10px;    
+}
+
+.menu__img-home{
+    margin-top: 4px;
+    width: 18px;
+    height: 18px;
+}
+
+.menu__list-vertical-sep{
+    font-size: 20px;   
+    margin: 0px 15px;    
+    margin-bottom: 5px;
+    color: rgb(177, 177, 177);
+}
+
+.header__search{
+    display: flex;
+    align-items: center;
+}
+
+.header__login{
+    display: flex;
+    align-items: center;
+}
+
+.header__login-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.map{
+    max-width: 100%;
+    height: 250px;
+
+    background: rgb(255, 90, 18);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 36px;
+    color: #fff;
+
+    margin-bottom: 25px;
+}
+
+.info-shops,.info-stocks,.info-points{
+    margin-bottom: 20px;
+}
+
+.info-shops__list,.info-stocks__list,.info-points__list{
+    list-style-type: none;
+}

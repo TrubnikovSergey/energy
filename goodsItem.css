@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{   }
+
+.wrapper{
+    /* height: 100vh; */
+}
+
+.container{
+    max-width: 750px;
+    margin: 0 auto; 
+    /* height: inherit; */
+
+}
+
+.header {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(240, 240, 240);
+}
+
+.menu__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    
+}
+
+.menu__link{
+    text-decoration: none;
+}
+
+.menu__list-item{
+    margin: 0px 10px;    
+}
+
+.menu__img-home{
+    margin-top: 4px;
+    width: 18px;
+    height: 18px;
+}
+
+.menu__list-vertical-sep{
+    font-size: 20px;   
+    margin: 0px 15px;    
+    margin-bottom: 5px;
+    color: rgb(177, 177, 177);
+}
+
+.header__login{
+    display: flex;
+    align-items: center;
+}
+
+.header__login-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.main{
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+
+}
+
+.categories{
+    /* width: 250px;  */
+    flex-grow: 2;
+    margin-right: 30px;
+    background: rgb(255, 90, 18);
+    padding: 20px;
+    padding-right: 30px;
+    height: fit-content;
+}
+
+.categories__title{
+    margin-bottom: 20px;
+}
+
+.categories-list{
+    list-style-type: none;
+}
+
+.categories-link{
+    text-decoration: none;
+}
+
+.goods-item__backtolist{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.goods-item__backtolist-link{
+    padding: 5px;
+    background:rgb(255, 90, 18);
+    text-decoration: none;
+
+}
+
+.goods-item{
+    flex-grow: 8;  
+    height: fit-content;
+}
+
+.goods-item__slider{
+    width: 100%;
+    height: 150px;
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.goods-item__title{
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+.goods-item__subtitle{
+    margin-bottom: 10px;
+}
